@@ -3,6 +3,11 @@ let app = express()
 let bodyparser = require('body-parser')
 let Databases = require('./db.js')
 app.use(bodyparser.json())
+
+app.get('/test', (req, res) => {
+    res.send('你访问到了高海清的失物招领')
+})
+
 app.post('/post', function (req, res) {
     console.log(req.body)
     Databases.create({
