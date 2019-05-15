@@ -18,7 +18,7 @@ module.exports = {
       host: "47.94.210.206",
       port: "1221",
       ref: "origin/master",
-      repo: "git@github.com:Hhpon/loveWall.git",
+      repo: "git@github.com:Hhpon/lost_found.git",
       path: "/home/hhp/www/lost_found/production",
       ssh_options: "StrictHostKeyChecking=no",
       "post-deploy":
